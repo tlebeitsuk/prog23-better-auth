@@ -41,7 +41,7 @@ export function SignupForm({
     console.log('new user:', data)
 
     if (data?.user) {
-      router.push('/login')
+      router.push('/')
     }
   }
 

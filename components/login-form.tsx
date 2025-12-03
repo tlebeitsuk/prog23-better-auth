@@ -36,7 +36,7 @@ export function LoginForm({
     console.log('user:', data)
 
     if (data?.user) {
-      router.push('/login')
+      router.push('/')
     }
   }
 
